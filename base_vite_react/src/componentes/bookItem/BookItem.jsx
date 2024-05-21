@@ -27,4 +27,4 @@ BookItem.propTypes = {
     rating: PropTypes.array,
 };
 
-export default BookItem;
+export default BookItem;ecib
