@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 const BookItem = ({ title, author, pageCount, rating, imageUrl }) => {
 
     return (
-        <Card style={{ width: "22rem" }}>
+        <Card style={{ width: "22rem" }} className="mx-3">
             <Card.Img
                 height={400}
                 variant="top"
@@ -27,4 +27,4 @@ BookItem.propTypes = {
     rating: PropTypes.array,
 };
 
-export default BookItem;ecib
+export default BookItem;

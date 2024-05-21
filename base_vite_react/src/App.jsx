@@ -1,6 +1,6 @@
 import { useState } from "react";
 import BookItem from "./componentes/bookItem/BookItem";
-
+import Books from "./componentes/books/Books";
 
 function App() {
   
@@ -36,7 +36,7 @@ function App() {
   ];
   return (
     <>
-      <div>
+      <div className="d-flex justify-content-center flex-wrap">
         <BookItem
           title={books[0].bookTitle}
           author={books[0].bookAuthor}
