@@ -1,4 +1,5 @@
 import Books from "./componentes/books/Books";
+import NewBook from "./componentes/newBook/NewBook";
 
 
 const books = [
@@ -36,7 +37,10 @@ function App() {
   
   return (
     <>
-    <div className="d-flex justify-content-center flex-wrap">
+    <div className="d-flex flex-column align-items-center">
+      <h2>Books Champion App</h2>
+      <p>¡Quiero leer libros!</p>
+      <NewBook />
       <Books books={books} />
     </div>
     </>
