@@ -13,6 +13,7 @@ const Books = ({ books }) => {
                     pageCount={book.pageCount}
                     rating={book.bookRating}
                     imageUrl={book.imageUrl}
+                    onBookSelected={selectedBookHandler}
                 />
             ))}
         </div>
