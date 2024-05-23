@@ -25,7 +25,7 @@ const BookItem = ({ title, author, pageCount, rating, imageUrl }) => {
                     <div>{rating?.length} estrellas</div>
                     <p>{pageCount} páginas</p>
                     <Button className="btn btn-warning" onClick={handleClick}>
-                        Actulizar titulo
+                        Actualizar titulo
                     </Button>
                 </Card.Body>
             </Card>

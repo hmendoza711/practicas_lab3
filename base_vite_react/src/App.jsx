@@ -1,6 +1,6 @@
 import { useState } from "react";
-import Books from "./components/books/Books";
-import NewBook from "./components/newBook/NewBook";
+import Books from "./componentes/books/Books";
+import NewBook from "./componentes/newBook/NewBook";
 
 const BOOKS = [
   {
@@ -46,6 +46,10 @@ function App() {
       id: Math.random().toString(),
     };
     setBooks((prev) => [...prev, bookData]);
+  };
+
+  const selectedBookHandler = (book) => {
+    console.log("Selected Book:", book);
   };
 
   return (
